@@ -1,24 +1,24 @@
-# MLPerf™ Tiny v0.7
+# MLPerf™ Tiny v1.0
 
 ## Submit Results
 Before Submitting your code and results to this GitHub page, you must email your results to the Chairs (please include *both* csaba@mlcommons.org and jeremy@mlcommons.org).
 
-At 1 pm PT on March 4th, you must:
+Before 1 pm PT on September 30th, you must:
 * Make a copy of the [results template](https://docs.google.com/spreadsheets/d/1M5oa12XjlobhcvuXaDmT42tVv6yY9O3OVSJ3sSDYKZ0/edit?usp=sharing)
 * Remove the example results
 * Enter **all** of your results
 * Email your copy of the results table to the chairs (csaba@mlcommons.org and jeremy@mlcommons.org)
 
 ## GitHub Submission HOWTO
-At 1:30 pm PT on March 4th, you must submit a pull request with all of the required components.
+Before 1:30 pm PT on Septeber 30th, you must submit a pull request with all of the required components.
 
-### Clone the MLPerf™ Tiny v0.7 submission tree
+### Clone the MLPerf™ Tiny v1.0 submission tree
 
 Clone the submission tree e.g. under your home directory:
 
 ```bash
-$ export SUBMISSION_ROOT=$HOME/submissions_tiny_0_7
-$ git clone git@github.com:mlcommons/submissions_tiny_0.7.git $SUBMISSION_ROOT
+$ export SUBMISSION_ROOT=$HOME/submissions_tiny_v1_0
+$ git clone git@github.com:mlcommons/submissions_tiny_v1.0.git $SUBMISSION_ROOT
 $ cd $SUBMISSION_ROOT
 ```
 
@@ -36,7 +36,7 @@ $ git checkout master && git pull
 $ git checkout -b dividiti-closed-aws-g4dn.4xlarge-openvino
 ```
 
-Populate your branch according to the [MLPerf Tiny Directory Structure](https://github.com/mlcommons/submissions_tiny_0.7/blob/master/directory_structure.adoc).
+Populate your branch according to the [MLPerf Tiny Directory Structure](https://github.com/mlcommons/submissions_tiny_v1.0/blob/master/directory_structure.adoc).
 
 You can inspect your changes:
 
@@ -81,7 +81,7 @@ $ git push --set-upstream origin dividiti-closed-aws-g4dn.4xlarge-openvino
 
 ### Create a pull request
 
-If you now go to https://github.com/mlcommons/submissions_tiny_0.7, you should see a notification
+If you now go to https://github.com/mlcommons/submissions_tiny_v1.0, you should see a notification
 about your branch being recently pushed and can immediately create a pull request (PR).
 You can also select your branch from the dropdown menu under `<> Code`. (Aren't you happy you prefixed your branch's name with the submitter's name?)
 
