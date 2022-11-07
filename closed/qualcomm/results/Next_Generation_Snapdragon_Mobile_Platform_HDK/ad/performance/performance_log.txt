@@ -1,0 +1,51 @@
+00074.529 session: m-session-start-id[20220925103730]
+00074.529 parser: m-bmark-run-name[ML Performance 1.0.1]-code[ulp-mlperf]
+00074.532 sequencer: m-sequencer-start
+00074.532 sequencer: m-sequencing-i[1]-command[version]-ack[/parser: m-ready/]-ms[50000000]-acc[0]-total_ms[201638400]
+00074.532 parser: Command "version"
+00074.532 parser: m-version[3.0.10]
+00074.532 parser: m-ready-finished[version]
+00074.532 sequencer: m-sequencing-i[2]-command[bm cfg ulp-mlperf]-ack[/parser: m-ready/]-ms[50000000]-acc[50000000]-total_ms[201638400]
+00074.533 parser: Command "bm cfg ulp-mlperf"
+00075.042 parser: m-bm-cfg-name[ulp-mlperf]-key[iterWarmup]-val[100]
+00075.043 parser: m-bm-cfg-name[ulp-mlperf]-key[iterInfer]-val[110000]
+00075.043 parser: m-bm-cfg-name[ulp-mlperf]-key[runMode]-val[single]
+00075.043 parser: m-bm-cfg-name[ulp-mlperf]-key[model]-val[ad01]
+00075.043 parser: m-bm-cfg-name[ulp-mlperf]-key[sourceDir]-val[C:\Users\wentliu\eembc\runner\benchmarks\ulp-mlperf\datasets]
+00075.043 parser: m-bm-cfg-name[ulp-mlperf]-key[singleInputFn]-val[normal_id_01_00000003_hist_librosa.bin]
+00075.043 parser: m-ready-finished[bm]
+00075.044 sequencer: m-sequencing-i[3]-command[dut profile]-ack[/dut: m-ready/]-ms[50000000]-acc[100000000]-total_ms[201638400]
+00075.044 parser: Command "dut profile"
+00075.045 parser: m-ready-finished[dut]
+00075.105 dut: profile%m-profile-[ULPMark for tinyML Firmware V0.0.1]
+00075.105 dut: m-model-[ad01]
+00075.105 dut: m-ready
+00075.105 sequencer: m-sequencing-i[4]-command[dut timestamp]-ack[/dut: m-ready/]-ms[50000000]-acc[150000000]-total_ms[201638400]
+00075.105 parser: Command "dut timestamp"
+00075.105 parser: m-ready-finished[dut]
+00075.137 dut: timestamp%m-lap-us-2830112991
+00075.137 dut: m-ready
+00075.137 sequencer: m-sequencing-i[5]-command[bload dut "C:\Users\wentliu\eembc\runner\benchmarks\ulp-mlperf\datasets\ad01\normal_id_01_00000003_hist_librosa.bin" 0 2560]-ack[/parser: m-ready/]-ms[1638400]-acc[200000000]-total_ms[201638400]
+00075.137 parser: Command "bload dut "C:\Users\wentliu\eembc\runner\benchmarks\ulp-mlperf\datasets\ad01\normal_id_01_00000003_hist_librosa.bin" 0 2560"
+00075.137 parser: File size is 102400, loading...
+00075.190 parser: Starting at byte offset 0
+00075.190 parser: Sending 2560 bytes
+00075.190 parser: m-mute-target[dut]
+00079.144 parser: m-unmute-target[dut]
+00079.144 parser: Binary load took 3.954 sec, or 25.898 kB/sec
+00079.144 parser: m-bload-done
+00079.144 parser: m-ready-finished[bload]
+00079.145 sequencer: m-sequencing-i[6]-command[dut infer 110000 100]-ack[/dut.?: m-ready/]-ms[-1]-acc[201638400]-total_ms[201638400]
+00079.145 parser: Command "dut infer 110000 100"
+00079.146 parser: m-ready-finished[dut]
+00079.175 dut: infer 110000 100%m-warmup-start-100
+00079.206 dut: m-warmup-done
+00079.223 dut: m-infer-start-110000
+00079.223 dut: m-lap-us-2834203581
+00090.018 dut: m-lap-us-2844988290
+00090.018 dut: m-infer-done
+00090.034 dut: m-results-[183.833]
+00090.034 dut: m-ready
+00090.034 sequencer: m-sequencer-stop
+00090.035 session: m-session-stop-id[20220925103730]
+00090.035 session: Saved this run to session ID 20220925103730
