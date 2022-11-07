@@ -1,0 +1,2 @@
+07834.442 ulp-mlperf: Top-1: 83.6%
+07834.461 ulp-mlperf: AUC: 0.90

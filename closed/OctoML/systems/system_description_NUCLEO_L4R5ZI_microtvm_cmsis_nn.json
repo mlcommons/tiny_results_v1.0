@@ -1,0 +1,42 @@
+{
+	"Submitter": "OctoML",
+	"Division": "Closed",
+	"Status": "Available",
+
+	"Board Name": "NUCLEO-L4R5ZI",
+	"Board Memory capacity (not including SoC, processor, or accelerator)": "",
+	"Board Memory type": "",
+	"Board storage capacity": "",
+	"Board storage type": "",
+	"SoC Name": "STM32L4R5ZIT6U",
+	"SoC Memory capacity (not including processor or accelerator)": "640KB",
+	"SoC Memory type": "RAM",
+	"SoC storage capacity": "2MB",
+	"SoC storage type": "Flash",
+	"Processor(s) Name": "32-bit Arm® Cortex®-M4 (DSP + FPU)",
+	"Processor(s) Frequencies": "120 MHz",
+	"Processor memory type and capacity": "",
+	"Processor storage type and capacity": "",
+	"Accelerator": "",
+	"Accelerator(s) Frequencies": "",
+	"Accelerator memory type and capacity": "",
+	"Accelerator storage type and capacity": "",
+
+	"Inference Framework": "microTVM",
+	"Software Libraries": {
+		"TVM": {
+			"SHA": "e3a6cb6a1bc1764e261321713ab275461b36dcc0"
+		},
+		"CMSIS_NN": {
+			"SHA": "51263182d16c92649a48144ba56c0945f9fce60e"	
+		}
+	},
+	"Operating System ": {
+		"Zephyr OS": {
+			"OS version": "2.7.3",
+			"Zephyr SDK version": "0.13.2"
+		}
+	}
+	"Other Software Stack": "",
+	"Software Notes": ""
+}
