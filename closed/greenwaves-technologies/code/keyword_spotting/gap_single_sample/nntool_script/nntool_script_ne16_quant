@@ -1,0 +1,15 @@
+set log_level INFO
+adjust
+qtune --step 0:-1 use_ne16=true
+fusions --scale8
+adjust
+
+#set graph_dump_tensor 6
+set graph_produce_node_names true
+set graph_produce_operinfos true
+set graph_monitor_cycles true
+#set l3_flash_device $(DEFAULT)
+set l3_flash_device AT_MEM_L3_DEFAULTFLASH
+#set l3_ram_device $(DEFAULT)
+set l3_ram_device AT_MEM_L3_DEFAULTRAM	
+save_state

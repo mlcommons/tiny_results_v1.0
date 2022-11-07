@@ -1,0 +1,9 @@
+BUILD
+BUILD_MODEL*
+BUILD_MODEL_SQ8*
+#logs
+nntool_calibration_fp32tflite.*
+__pycache__
+.ipynb_checkpoints
+calibration_samples/
+perf_samples/

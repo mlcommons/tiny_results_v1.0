@@ -1,0 +1,3 @@
+python calibrate_nntool.py --calibration_samples ../datasets/calibration_samples --tflite_model ../model/ad01_fp32.tflite                     --calibration_file ../model/nntool_calibration_fp32tflite.pickle
+#python calibrate_nntool.py --calibration_samples ../datasets/calibration_samples --tflite_model ../model/ad01_int8.tflite                     --calibration_file nntool_calibration_int8tflite.pickle
+#python calibrate_nntool.py --calibration_samples ../datasets/calibration_samples --tflite_model ../model/ad01_int8.tflite --load_tflite_quant --calibration_file nntool_calibration_int8tflite_quant.pickle

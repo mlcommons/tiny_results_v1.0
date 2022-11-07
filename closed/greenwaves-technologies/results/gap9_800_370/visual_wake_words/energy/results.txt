@@ -1,0 +1,52 @@
+03603.614 ulp-ml: Energy data for window 2 at time 86.22 for 11.23 sec.:
+03603.614 ulp-ml:   Energy       :   590739.460 uJ
+03603.615 ulp-ml:   Power        :    52608.377 uW
+03603.615 ulp-ml:   Energy/Inf.  :       59.074 uJ/inf.
+03603.626 ulp-ml: Energy data for window 4 at time 182.67 for 11.23 sec.:
+03603.626 ulp-ml:   Energy       :   584055.290 uJ
+03603.626 ulp-ml:   Power        :    52017.749 uW
+03603.626 ulp-ml:   Energy/Inf.  :       58.406 uJ/inf.
+03603.649 ulp-ml: Energy data for window 6 at time 279.12 for 11.23 sec.:
+03603.649 ulp-ml:   Energy       :   582207.820 uJ
+03603.649 ulp-ml:   Power        :    51848.590 uW
+03603.649 ulp-ml:   Energy/Inf.  :       58.221 uJ/inf.
+03603.673 ulp-ml: Energy data for window 8 at time 375.62 for 11.23 sec.:
+03603.674 ulp-ml:   Energy       :   583558.570 uJ
+03603.674 ulp-ml:   Power        :    51968.881 uW
+03603.674 ulp-ml:   Energy/Inf.  :       58.356 uJ/inf.
+03603.712 ulp-ml: Energy data for window 10 at time 472.14 for 11.23 sec.:
+03603.712 ulp-ml:   Energy       :   581731.480 uJ
+03603.712 ulp-ml:   Power        :    51806.170 uW
+03603.712 ulp-ml:   Energy/Inf.  :       58.173 uJ/inf.
+03603.712 ulp-ml: ---------------------------------------------------------
+03603.712 ulp-ml: Median energy cost is 58.356 uJ/inf.
+03603.712 ulp-ml: ---------------------------------------------------------
+03603.712 ulp-ml: Performance results for window 2:
+03603.712 ulp-ml:   # Inferences :        10000
+03603.712 ulp-ml:   Runtime      :       11.229 sec.
+03603.712 ulp-ml:   Throughput   :      890.551 inf./sec.
+03603.712 ulp-ml: Runtime requirements have been met.
+03603.712 ulp-ml: Performance results for window 4:
+03603.713 ulp-ml:   # Inferences :        10000
+03603.713 ulp-ml:   Runtime      :       11.228 sec.
+03603.713 ulp-ml:   Throughput   :      890.631 inf./sec.
+03603.713 ulp-ml: Runtime requirements have been met.
+03603.713 ulp-ml: Performance results for window 6:
+03603.713 ulp-ml:   # Inferences :        10000
+03603.713 ulp-ml:   Runtime      :       11.229 sec.
+03603.713 ulp-ml:   Throughput   :      890.551 inf./sec.
+03603.713 ulp-ml: Runtime requirements have been met.
+03603.713 ulp-ml: Performance results for window 8:
+03603.713 ulp-ml:   # Inferences :        10000
+03603.713 ulp-ml:   Runtime      :       11.229 sec.
+03603.713 ulp-ml:   Throughput   :      890.551 inf./sec.
+03603.713 ulp-ml: Runtime requirements have been met.
+03603.713 ulp-ml: Performance results for window 10:
+03603.713 ulp-ml:   # Inferences :        10000
+03603.713 ulp-ml:   Runtime      :       11.229 sec.
+03603.713 ulp-ml:   Throughput   :      890.551 inf./sec.
+03603.713 ulp-ml: Runtime requirements have been met.
+03603.713 ulp-ml: ---------------------------------------------------------
+03603.713 ulp-ml: Median throughput is 890.551 inf./sec.
+03603.713 ulp-ml: ---------------------------------------------------------
+03603.713 ulp-ml: Cannot compute accuracy metrics in single-run mode.

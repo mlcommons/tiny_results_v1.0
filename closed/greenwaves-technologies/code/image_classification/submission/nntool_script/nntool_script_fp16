@@ -1,0 +1,21 @@
+set log_level INFO
+
+adjust
+
+fquant --scheme FLOAT --float_type bfloat16 --hwc
+
+fusions --scale8
+adjust
+
+show
+qshow
+
+#set graph_dump_tensor 6
+set graph_produce_node_names true
+set graph_produce_operinfos true
+set graph_monitor_cycles true
+
+set l3_flash_device $(MODEL_L3_FLASH)
+set l3_ram_device $(MODEL_L3_RAM)	
+
+save_state

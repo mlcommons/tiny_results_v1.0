@@ -1,0 +1,135 @@
+22711.453 session: m-session-start-id[20220930164224]
+22711.453 parser: m-bmark-run-name[ML Performance 1.0.1]-code[ulp-mlperf]
+22711.460 sequencer: m-sequencer-start
+22711.460 sequencer: m-sequencing-i[1]-command[version]-ack[/parser: m-ready/]-ms[10000]-acc[0]-total_ms[2251840]
+22711.460 parser: Command "version"
+22711.460 parser: m-version[3.0.10]
+22711.460 parser: m-ready-finished[version]
+22711.460 sequencer: m-sequencing-i[2]-command[bm cfg ulp-mlperf]-ack[/parser: m-ready/]-ms[10000]-acc[10000]-total_ms[2251840]
+22711.461 parser: Command "bm cfg ulp-mlperf"
+22711.968 parser: m-bm-cfg-name[ulp-mlperf]-key[iterWarmup]-val[1]
+22711.968 parser: m-bm-cfg-name[ulp-mlperf]-key[iterInfer]-val[10000]
+22711.968 parser: m-bm-cfg-name[ulp-mlperf]-key[runMode]-val[bmark]
+22711.968 parser: m-bm-cfg-name[ulp-mlperf]-key[model]-val[vww01]
+22711.968 parser: m-bm-cfg-name[ulp-mlperf]-key[sourceDir]-val[C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets]
+22711.968 parser: m-bm-cfg-name[ulp-mlperf]-key[singleInputFn]-val[COCO_val2014_000000143572.bin]
+22711.968 parser: m-ready-finished[bm]
+22711.968 sequencer: m-sequencing-i[3]-command[dut profile]-ack[/dut: m-ready/]-ms[10000]-acc[20000]-total_ms[2251840]
+22711.968 parser: Command "dut profile"
+22711.969 parser: m-ready-finished[dut]
+22711.990 dut: m-profile-[ULPMark for tinyML Firmware V0.0.1]
+22711.991 dut: m-model-[vww01]
+22711.991 dut: m-ready
+22711.991 sequencer: m-sequencing-i[4]-command[dut timestamp]-ack[/dut: m-ready/]-ms[10000]-acc[30000]-total_ms[2251840]
+22711.991 parser: Command "dut timestamp"
+22711.991 parser: m-ready-finished[dut]
+22712.007 dut: m-lap-us-82334264
+22712.007 dut: m-ready
+22712.007 sequencer: m-sequencing-i[5]-command[bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\vww01\COCO_val2014_000000143572.bin"]-ack[/parser: m-ready/]-ms[442368]-acc[40000]-total_ms[2251840]
+22712.007 parser: Command "bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\vww01\COCO_val2014_000000143572.bin""
+22712.008 parser: File size is 27648, loading...
+22712.008 parser: Starting at byte offset 0
+22712.008 parser: Sending 27648 bytes
+22712.008 parser: m-mute-target[dut]
+22725.825 parser: m-unmute-target[dut]
+22725.826 parser: Binary load took 13.818 sec, or 2.001 kB/sec
+22725.826 parser: m-bload-done
+22725.826 parser: m-ready-finished[bload]
+22725.826 sequencer: m-sequencing-i[6]-command[dut infer 10000 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[482368]-total_ms[2251840]
+22725.826 parser: Command "dut infer 10000 1"
+22725.826 parser: m-ready-finished[dut]
+22725.901 dut: m-warmup-start-1
+22725.901 dut: m-warmup-done
+22725.901 dut: m-infer-start-10000
+22725.901 dut: m-lap-us-96226320
+22737.153 dut: m-lap-us-107474400
+22737.153 dut: m-infer-done
+22737.153 dut: m-results-[0.122,0.877]
+22737.153 dut: m-ready
+22737.153 sequencer: m-sequencing-i[7]-command[bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\vww01\COCO_val2014_000000296848.bin"]-ack[/parser: m-ready/]-ms[442368]-acc[482367]-total_ms[2251840]
+22737.153 parser: Command "bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\vww01\COCO_val2014_000000296848.bin""
+22737.153 parser: File size is 27648, loading...
+22737.170 parser: Starting at byte offset 0
+22737.170 parser: Sending 27648 bytes
+22737.170 parser: m-mute-target[dut]
+22750.988 parser: m-unmute-target[dut]
+22750.988 parser: Binary load took 13.818 sec, or 2.001 kB/sec
+22750.988 parser: m-bload-done
+22750.988 parser: m-ready-finished[bload]
+22750.988 sequencer: m-sequencing-i[8]-command[dut infer 10000 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[924735]-total_ms[2251840]
+22750.988 parser: Command "dut infer 10000 1"
+22750.988 parser: m-ready-finished[dut]
+22751.066 dut: m-warmup-start-1
+22751.066 dut: m-warmup-done
+22751.066 dut: m-infer-start-10000
+22751.066 dut: m-lap-us-121391600
+22762.318 dut: m-lap-us-132639584
+22762.318 dut: m-infer-done
+22762.318 dut: m-results-[0.162,0.838]
+22762.318 dut: m-ready
+22762.319 sequencer: m-sequencing-i[9]-command[bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\vww01\COCO_val2014_000000252294.bin"]-ack[/parser: m-ready/]-ms[442368]-acc[924734]-total_ms[2251840]
+22762.319 parser: Command "bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\vww01\COCO_val2014_000000252294.bin""
+22762.319 parser: File size is 27648, loading...
+22762.349 parser: Starting at byte offset 0
+22762.349 parser: Sending 27648 bytes
+22762.349 parser: m-mute-target[dut]
+22776.169 parser: m-unmute-target[dut]
+22776.169 parser: Binary load took 13.820 sec, or 2.001 kB/sec
+22776.169 parser: m-bload-done
+22776.169 parser: m-ready-finished[bload]
+22776.169 sequencer: m-sequencing-i[10]-command[dut infer 10000 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[1367102]-total_ms[2251840]
+22776.169 parser: Command "dut infer 10000 1"
+22776.169 parser: m-ready-finished[dut]
+22776.242 dut: m-warmup-start-1
+22776.242 dut: m-warmup-done
+22776.242 dut: m-infer-start-10000
+22776.242 dut: m-lap-us-146567200
+22787.494 dut: m-lap-us-157815184
+22787.494 dut: m-infer-done
+22787.494 dut: m-results-[0.097,0.903]
+22787.494 dut: m-ready
+22787.494 sequencer: m-sequencing-i[11]-command[bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\vww01\COCO_val2014_000000057593.bin"]-ack[/parser: m-ready/]-ms[442368]-acc[1367101]-total_ms[2251840]
+22787.494 parser: Command "bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\vww01\COCO_val2014_000000057593.bin""
+22787.494 parser: File size is 27648, loading...
+22787.515 parser: Starting at byte offset 0
+22787.515 parser: Sending 27648 bytes
+22787.515 parser: m-mute-target[dut]
+22801.329 parser: m-unmute-target[dut]
+22801.329 parser: Binary load took 13.814 sec, or 2.002 kB/sec
+22801.329 parser: m-bload-done
+22801.329 parser: m-ready-finished[bload]
+22801.329 sequencer: m-sequencing-i[12]-command[dut infer 10000 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[1809469]-total_ms[2251840]
+22801.329 parser: Command "dut infer 10000 1"
+22801.329 parser: m-ready-finished[dut]
+22801.404 dut: m-warmup-start-1
+22801.404 dut: m-warmup-done
+22801.404 dut: m-infer-start-10000
+22801.404 dut: m-lap-us-171729696
+22812.657 dut: m-lap-us-182977632
+22812.657 dut: m-infer-done
+22812.657 dut: m-results-[0.018,0.982]
+22812.657 dut: m-ready
+22812.657 sequencer: m-sequencing-i[13]-command[bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\vww01\COCO_val2014_000000035429.bin"]-ack[/parser: m-ready/]-ms[442368]-acc[1809468]-total_ms[2251840]
+22812.657 parser: Command "bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\vww01\COCO_val2014_000000035429.bin""
+22812.658 parser: File size is 27648, loading...
+22812.675 parser: Starting at byte offset 0
+22812.675 parser: Sending 27648 bytes
+22812.675 parser: m-mute-target[dut]
+22826.491 parser: m-unmute-target[dut]
+22826.491 parser: Binary load took 13.816 sec, or 2.001 kB/sec
+22826.491 parser: m-bload-done
+22826.491 parser: m-ready-finished[bload]
+22826.491 sequencer: m-sequencing-i[14]-command[dut infer 10000 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[2251836]-total_ms[2251840]
+22826.491 parser: Command "dut infer 10000 1"
+22826.492 parser: m-ready-finished[dut]
+22826.567 dut: m-warmup-start-1
+22826.567 dut: m-warmup-done
+22826.567 dut: m-infer-start-10000
+22826.567 dut: m-lap-us-196891552
+22837.819 dut: m-lap-us-208139440
+22837.819 dut: m-infer-done
+22837.819 dut: m-results-[0.725,0.275]
+22837.819 dut: m-ready
+22837.819 sequencer: m-sequencer-stop
+22837.819 session: m-session-stop-id[20220930164224]
+22837.819 session: Saved this run to session ID 20220930164224

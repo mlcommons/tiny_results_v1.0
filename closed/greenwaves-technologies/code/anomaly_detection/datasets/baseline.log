@@ -1,0 +1,21 @@
+INFO: :load_directory <- development
+INFO: :target_dir : /home/marco-gwt/GWT/nn_experiments/gap_tinyml_benchmarks/anomaly_detection/datasets/get/dev_data/ToyCar_id_01
+INFO: :test_file  num : 614
+INFO: :target_dir : /home/marco-gwt/GWT/nn_experiments/gap_tinyml_benchmarks/anomaly_detection/datasets/get/dev_data/ToyCar_id_02
+INFO: :test_file  num : 615
+INFO: :target_dir : /home/marco-gwt/GWT/nn_experiments/gap_tinyml_benchmarks/anomaly_detection/datasets/get/dev_data/ToyCar_id_03
+INFO: :test_file  num : 615
+INFO: :target_dir : /home/marco-gwt/GWT/nn_experiments/gap_tinyml_benchmarks/anomaly_detection/datasets/get/dev_data/ToyCar_id_04
+INFO: :test_file  num : 615
+INFO: :load_directory <- development
+INFO: :target_dir : /home/marco-gwt/GWT/nn_experiments/gap_tinyml_benchmarks/anomaly_detection/datasets/get/dev_data/ToyCar
+INFO: :train_file num : 7000
+INFO: :load_directory <- development
+INFO: :target_dir : /home/francesco/works/tinyML_perf/gap_tinyml_benchmarks/anomaly_detection/datasets/dev_data/ToyCar_id_01
+INFO: :test_file  num : 614
+INFO: :target_dir : /home/francesco/works/tinyML_perf/gap_tinyml_benchmarks/anomaly_detection/datasets/dev_data/ToyCar_id_02
+INFO: :test_file  num : 615
+INFO: :target_dir : /home/francesco/works/tinyML_perf/gap_tinyml_benchmarks/anomaly_detection/datasets/dev_data/ToyCar_id_03
+INFO: :test_file  num : 615
+INFO: :target_dir : /home/francesco/works/tinyML_perf/gap_tinyml_benchmarks/anomaly_detection/datasets/dev_data/ToyCar_id_04
+INFO: :test_file  num : 615

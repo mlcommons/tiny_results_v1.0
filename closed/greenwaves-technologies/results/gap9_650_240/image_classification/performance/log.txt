@@ -1,0 +1,135 @@
+20856.816 session: m-session-start-id[20220930161129]
+20856.816 parser: m-bmark-run-name[ML Performance 1.0.1]-code[ulp-mlperf]
+20856.829 sequencer: m-sequencer-start
+20856.829 sequencer: m-sequencing-i[1]-command[version]-ack[/parser: m-ready/]-ms[10000]-acc[0]-total_ms[285760]
+20856.829 parser: Command "version"
+20856.829 parser: m-version[3.0.10]
+20856.829 parser: m-ready-finished[version]
+20856.829 sequencer: m-sequencing-i[2]-command[bm cfg ulp-mlperf]-ack[/parser: m-ready/]-ms[10000]-acc[10000]-total_ms[285760]
+20856.829 parser: Command "bm cfg ulp-mlperf"
+20857.342 parser: m-bm-cfg-name[ulp-mlperf]-key[iterWarmup]-val[1]
+20857.342 parser: m-bm-cfg-name[ulp-mlperf]-key[iterInfer]-val[20000]
+20857.342 parser: m-bm-cfg-name[ulp-mlperf]-key[runMode]-val[bmark]
+20857.342 parser: m-bm-cfg-name[ulp-mlperf]-key[model]-val[ic01]
+20857.342 parser: m-bm-cfg-name[ulp-mlperf]-key[sourceDir]-val[C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets]
+20857.342 parser: m-bm-cfg-name[ulp-mlperf]-key[singleInputFn]-val[emu_s_002009.bin]
+20857.342 parser: m-ready-finished[bm]
+20857.342 sequencer: m-sequencing-i[3]-command[dut profile]-ack[/dut: m-ready/]-ms[10000]-acc[20000]-total_ms[285760]
+20857.342 parser: Command "dut profile"
+20857.342 parser: m-ready-finished[dut]
+20857.363 dut: m-profile-[ULPMark for tinyML Firmware V0.0.1]
+20857.363 dut: m-model-[ic01]
+20857.363 dut: m-ready
+20857.363 sequencer: m-sequencing-i[4]-command[dut timestamp]-ack[/dut: m-ready/]-ms[10000]-acc[30000]-total_ms[285760]
+20857.363 parser: Command "dut timestamp"
+20857.363 parser: m-ready-finished[dut]
+20857.379 dut: m-lap-us-209096496
+20857.379 dut: m-ready
+20857.379 sequencer: m-sequencing-i[5]-command[bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\ic01\emu_s_002009.bin"]-ack[/parser: m-ready/]-ms[49152]-acc[40000]-total_ms[285760]
+20857.379 parser: Command "bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\ic01\emu_s_002009.bin""
+20857.379 parser: File size is 3072, loading...
+20857.388 parser: Starting at byte offset 0
+20857.388 parser: Sending 3072 bytes
+20857.388 parser: m-mute-target[dut]
+20858.929 parser: m-unmute-target[dut]
+20858.929 parser: Binary load took 1.541 sec, or 1.994 kB/sec
+20858.929 parser: m-bload-done
+20858.929 parser: m-ready-finished[bload]
+20858.929 sequencer: m-sequencing-i[6]-command[dut infer 20000 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[89152]-total_ms[285760]
+20858.929 parser: Command "dut infer 20000 1"
+20858.929 parser: m-ready-finished[dut]
+20858.954 dut: m-warmup-start-1
+20858.954 dut: m-warmup-done
+20858.954 dut: m-infer-start-20000
+20858.954 dut: m-lap-us-210670128
+20877.943 dut: m-lap-us-229654096
+20877.943 dut: m-infer-done
+20877.943 dut: m-results-[0.001,0.001,0.000,0.001,0.000,0.376,0.000,0.620,0.000,0.002]
+20877.943 dut: m-ready
+20877.943 sequencer: m-sequencing-i[7]-command[bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\ic01\taxi_s_001241.bin"]-ack[/parser: m-ready/]-ms[49152]-acc[89151]-total_ms[285760]
+20877.943 parser: Command "bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\ic01\taxi_s_001241.bin""
+20877.943 parser: File size is 3072, loading...
+20877.944 parser: Starting at byte offset 0
+20877.944 parser: Sending 3072 bytes
+20877.944 parser: m-mute-target[dut]
+20879.493 parser: m-unmute-target[dut]
+20879.493 parser: Binary load took 1.549 sec, or 1.983 kB/sec
+20879.493 parser: m-bload-done
+20879.493 parser: m-ready-finished[bload]
+20879.493 sequencer: m-sequencing-i[8]-command[dut infer 20000 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[138303]-total_ms[285760]
+20879.493 parser: Command "dut infer 20000 1"
+20879.494 parser: m-ready-finished[dut]
+20879.519 dut: m-warmup-start-1
+20879.519 dut: m-warmup-done
+20879.519 dut: m-infer-start-20000
+20879.519 dut: m-lap-us-231234976
+20898.496 dut: m-lap-us-250207120
+20898.496 dut: m-infer-done
+20898.496 dut: m-results-[0.000,1.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000]
+20898.496 dut: m-ready
+20898.496 sequencer: m-sequencing-i[9]-command[bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\ic01\accentor_s_001031.bin"]-ack[/parser: m-ready/]-ms[49152]-acc[138302]-total_ms[285760]
+20898.496 parser: Command "bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\ic01\accentor_s_001031.bin""
+20898.496 parser: File size is 3072, loading...
+20898.498 parser: Starting at byte offset 0
+20898.498 parser: Sending 3072 bytes
+20898.498 parser: m-mute-target[dut]
+20900.109 parser: m-unmute-target[dut]
+20900.109 parser: Binary load took 1.611 sec, or 1.907 kB/sec
+20900.109 parser: m-bload-done
+20900.109 parser: m-ready-finished[bload]
+20900.109 sequencer: m-sequencing-i[10]-command[dut infer 20000 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[187454]-total_ms[285760]
+20900.109 parser: Command "dut infer 20000 1"
+20900.109 parser: m-ready-finished[dut]
+20900.135 dut: m-warmup-start-1
+20900.135 dut: m-warmup-done
+20900.135 dut: m-infer-start-20000
+20900.135 dut: m-lap-us-251850368
+20919.127 dut: m-lap-us-270838592
+20919.127 dut: m-infer-done
+20919.127 dut: m-results-[0.004,0.000,0.059,0.204,0.433,0.036,0.263,0.002,0.000,0.000]
+20919.127 dut: m-ready
+20919.128 sequencer: m-sequencing-i[11]-command[bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\ic01\mongrel_s_000686.bin"]-ack[/parser: m-ready/]-ms[49152]-acc[187453]-total_ms[285760]
+20919.128 parser: Command "bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\ic01\mongrel_s_000686.bin""
+20919.128 parser: File size is 3072, loading...
+20919.128 parser: Starting at byte offset 0
+20919.128 parser: Sending 3072 bytes
+20919.128 parser: m-mute-target[dut]
+20920.677 parser: m-unmute-target[dut]
+20920.677 parser: Binary load took 1.548 sec, or 1.984 kB/sec
+20920.677 parser: m-bload-done
+20920.677 parser: m-ready-finished[bload]
+20920.677 sequencer: m-sequencing-i[12]-command[dut infer 20000 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[236605]-total_ms[285760]
+20920.677 parser: Command "dut infer 20000 1"
+20920.677 parser: m-ready-finished[dut]
+20920.702 dut: m-warmup-start-1
+20920.702 dut: m-warmup-done
+20920.702 dut: m-infer-start-20000
+20920.702 dut: m-lap-us-272418144
+20939.694 dut: m-lap-us-291404928
+20939.694 dut: m-infer-done
+20939.694 dut: m-results-[0.000,0.000,0.000,0.037,0.000,0.957,0.001,0.005,0.000,0.000]
+20939.694 dut: m-ready
+20939.694 sequencer: m-sequencing-i[13]-command[bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\ic01\stealth_bomber_s_002204.bin"]-ack[/parser: m-ready/]-ms[49152]-acc[236604]-total_ms[285760]
+20939.694 parser: Command "bload dut "C:\Users\frapa\eembc\runner\benchmarks\ulp-mlperf\datasets\ic01\stealth_bomber_s_002204.bin""
+20939.694 parser: File size is 3072, loading...
+20939.695 parser: Starting at byte offset 0
+20939.695 parser: Sending 3072 bytes
+20939.695 parser: m-mute-target[dut]
+20941.244 parser: m-unmute-target[dut]
+20941.244 parser: Binary load took 1.549 sec, or 1.983 kB/sec
+20941.244 parser: m-bload-done
+20941.244 parser: m-ready-finished[bload]
+20941.244 sequencer: m-sequencing-i[14]-command[dut infer 20000 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[285756]-total_ms[285760]
+20941.244 parser: Command "dut infer 20000 1"
+20941.244 parser: m-ready-finished[dut]
+20941.269 dut: m-warmup-start-1
+20941.270 dut: m-warmup-done
+20941.270 dut: m-infer-start-20000
+20941.270 dut: m-lap-us-292985120
+20960.262 dut: m-lap-us-311972352
+20960.262 dut: m-infer-done
+20960.262 dut: m-results-[0.848,0.000,0.002,0.001,0.070,0.001,0.054,0.020,0.003,0.000]
+20960.262 dut: m-ready
+20960.262 sequencer: m-sequencer-stop
+20960.262 session: m-session-stop-id[20220930161129]
+20960.263 session: Saved this run to session ID 20220930161129

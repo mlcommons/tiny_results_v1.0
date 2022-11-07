@@ -1,0 +1,31 @@
+{
+    "Submitter": "Greenwaves Technologies",
+    "Division": "Closed",
+    "Status": "Available",
+
+    "Board Name": "GAP9 EVK",
+    "SoC Name": "Gap9",
+    "SoC Memory capacity": "1.5 MB L2 + 128 KB L1",
+    "SoC Memory type": "RAM",
+    "SoC storage capacity": "2 MB",
+    "SoC storage type": "eMRAM",
+    "Processor(s) Name": "GAP9 Risc-v",
+    "Number of Processor(s)": "1 + 9",
+    "Processor(s) Frequencies": "240 MHz",
+    "Processor(s) Voltage": "0.65 V",
+    "Accelerator": "NE16",
+    "Accelerator(s) Frequencies": "N/A",
+    "Accelerator memory type and capacity": "Same as SoC",
+    "Accelerator storage type and capacity": "Same as SoC",
+    "Hardware Notes": "VIN = 1.8V, VDDIO = 1.8V",
+
+    "Inference Framework": "N/A",
+    "Software Libraries": "GapFlow, GAP SDK",
+    "Operating System ": "FreeRTOS",
+    "Other Software Stack": "N/A",
+    "Software Notes": "",
+
+    "General Compiler(s)": "RISCV GCC with custom extensions",
+    "Other Software": "",
+    "Training and Quantization Notes": ""
+}

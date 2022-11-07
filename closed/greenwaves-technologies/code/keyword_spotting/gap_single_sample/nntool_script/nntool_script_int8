@@ -1,0 +1,22 @@
+set log_level INFO
+adjust
+aquant ../datasets/calibration_samples_np/* --scheme SQ8 
+#--hwc
+#qshow
+#qtune --step 0:3 hwc=true 
+#qtune --step 4:-1 use_ne16=true
+#qtune 
+#aquant calibration_samples_np/* --use_ne16 --scheme SQ8
+fusions --scale8
+adjust
+show
+
+#set graph_dump_tensor 6
+set graph_produce_node_names true
+set graph_produce_operinfos true
+set graph_monitor_cycles true
+#set l3_flash_device $(DEFAULT)
+set l3_flash_device AT_MEM_L3_DEFAULTFLASH
+#set l3_ram_device $(DEFAULT)
+set l3_ram_device AT_MEM_L3_DEFAULTRAM	
+save_state
