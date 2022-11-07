@@ -1,0 +1,68 @@
+[
+    {
+        cmd: 'umount'
+    },
+    {
+        cmd: 'mountc dut dut'
+    },
+    {
+        cmd: 'dut profile'
+    },
+    {
+        cmd: 'version'
+    },
+    {
+        cmd: 'bm cfg ulp-mlperf'
+    },
+    {
+        cmd: 'dut profile'
+    },
+    {
+        cmd: 'dut timestamp'
+    },
+    {
+        cmd: 'bload dut "/Users/jeremy/eembc/runner/benchmarks/ulp-mlperf/datasets/ic01/station_wagon_s_002096.bin"',
+        ms: 49152
+    },
+    {
+        cmd: 'dut infer 1000 1',
+        ms: -1,
+        ack: /dut.?: m-ready/
+    },
+    {
+        cmd: 'bload dut "/Users/jeremy/eembc/runner/benchmarks/ulp-mlperf/datasets/ic01/stealth_bomber_s_002204.bin"',
+        ms: 49152
+    },
+    {
+        cmd: 'dut infer 1000 1',
+        ms: -1,
+        ack: /dut.?: m-ready/
+    },
+    {
+        cmd: 'bload dut "/Users/jeremy/eembc/runner/benchmarks/ulp-mlperf/datasets/ic01/american_elk_s_001535.bin"',
+        ms: 49152
+    },
+    {
+        cmd: 'dut infer 1000 1',
+        ms: -1,
+        ack: /dut.?: m-ready/
+    },
+    {
+        cmd: 'bload dut "/Users/jeremy/eembc/runner/benchmarks/ulp-mlperf/datasets/ic01/tipper_truck_s_001753.bin"',
+        ms: 49152
+    },
+    {
+        cmd: 'dut infer 1000 1',
+        ms: -1,
+        ack: /dut.?: m-ready/
+    },
+    {
+        cmd: 'bload dut "/Users/jeremy/eembc/runner/benchmarks/ulp-mlperf/datasets/ic01/passenger_ship_s_002208.bin"',
+        ms: 49152
+    },
+    {
+        cmd: 'dut infer 1000 1',
+        ms: -1,
+        ack: /dut.?: m-ready/
+    }
+]

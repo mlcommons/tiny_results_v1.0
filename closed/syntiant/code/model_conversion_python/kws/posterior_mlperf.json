@@ -1,0 +1,32 @@
+{
+    "ph_type": 0,
+    "states": [
+        {"timeout": 0, "classes":[
+        {"label":"down","phwin":16, "phth":0.98, "phbackoff":25, "phaction":0,
+        "phaction_arg":0, "smoothing_queue_size":1},
+        {"label":"go","phwin":8, "phth":0.98, "phbackoff":20, "phaction":0,
+        "phaction_arg":1, "smoothing_queue_size":1},
+        {"label":"left","phwin":12, "phth":0.90, "phbackoff":25, "phaction":0,
+        "phaction_arg":2, "smoothing_queue_size":1},
+        {"label":"off","phwin":10, "phth":0.90, "phbackoff":20, "phaction":0,
+        "phaction_arg":3, "smoothing_queue_size":1},
+        {"label":"no","phwin":8, "phth":0.94, "phbackoff":20, "phaction":0,
+        "phaction_arg":4, "smoothing_queue_size":1},
+        {"label":"on","phwin":8, "phth":0.94, "phbackoff":20, "phaction":0,
+        "phaction_arg":5, "smoothing_queue_size":1},
+        {"label":"right","phwin":14, "phth":0.94, "phbackoff":25, "phaction":0,
+        "phaction_arg":6, "smoothing_queue_size":1},
+        {"label":"stop","phwin":16, "phth":0.94, "phbackoff":25, "phaction":0,
+        "phaction_arg":7, "smoothing_queue_size":1},
+        {"label":"up","phwin":8, "phth":0.94, "phbackoff":20, "phaction":0,
+        "phaction_arg":8, "smoothing_queue_size":1},
+        {"label":"yes","phwin":12, "phth":0.94, "phbackoff":25, "phaction":0,
+        "phaction_arg":9, "smoothing_queue_size":1},
+        {"label":"silence","phwin":255, "phth":0.999, "phbackoff":0,
+        "phaction":2, "phaction_arg":10, "smoothing_queue_size":1},
+        {"label":"unknown","phwin":255, "phth":0.999, "phbackoff":0,
+            "phaction":2, "phaction_arg":11, "smoothing_queue_size":1}
+        ]}
+     ]
+    }
+    
